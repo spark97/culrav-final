@@ -8,9 +8,10 @@
 body {
 	font-family: 'Overpass Mono', monospace;
 	color: #edecf2;
-	background: #37373e;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background: url('../img/bg.jpg');
+	background-size: cover;
 }
 
 a {
