@@ -18,6 +18,15 @@ body{
 }
 
 
+.title{
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 4.5em;
+	margin-top: -3vh;
+	color: white;
+	text-transform: uppercase;
+}
+
+
 .grid {
 	position: relative;
 	margin: 0 auto;

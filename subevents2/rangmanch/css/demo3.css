@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 body{
 	background:url('../img/bg.jpg');
@@ -14,7 +15,7 @@ body{
 	--color-link-hover: #fff;
 	--color-info: #454847;
 	--glitch-width: 40vmax;
-	--glitch-height: calc(40vmax * 1.25);
+	--glitch-height: calc(30vmax * 1.25);
 	--color-title: #fff;
 	--color-subtitle: #30efbf;
 }
@@ -137,10 +138,10 @@ body{
 .grid__item-title {
 	position: absolute;
 	margin: 0;
-	font-size: 4vw;
+	font-size: 3.5vw;
 	color: var(--color-title);
-	font-family: 'Varela Round', sans-serif;
-	font-weight: 500;
+	font-family: 'Cinzel', sans-serif;
+	font-weight:800;
 	padding: 30vh 0.5em 0;
 	top: 0;
 	pointer-events: none;
@@ -181,7 +182,7 @@ body{
 	width: var(--glitch-width);
 	max-width: 400px;
 	height: var(--glitch-height);
-	max-height: calc(400px * 1.25);
+	max-height: calc(400px * 1);
 	overflow: hidden;
 	margin: 0 auto;
 	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.3), 0 30px 30px 0 rgba(0, 0, 0, 0.4);
@@ -223,7 +224,7 @@ body{
 	}
 
 	.glitch--style-4 .glitch__img {
-		background-image: url(../img/nukkad.jpg);
+		background-image: url(../img/stageplay.jpg);
 	}
 
 /* Set the background colors for the glitch images*/
@@ -705,9 +706,3 @@ body{
 }
 
 
-
-@media screen and (max-width: 55em) {
-	.title{
-		font-size: 3em;
-	}
-}

@@ -1,11 +1,4 @@
 
-.header-nightsky {
-    color: white;
-    background: url("../../assets/img/nightsky.jpg") no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    font-family: 'Montserrat'
-}
 
 .header-nightsky .navbar-nav>li>a {
     color: white;
