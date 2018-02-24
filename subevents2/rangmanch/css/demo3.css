@@ -152,8 +152,10 @@ body{
 .grid__item:nth-child(odd) .grid__item-title {
 	right: 0;
 	text-align: right;
-	padding-top: 10vh;
 }
+
+
+
 
 .grid__item-title span {
 	display: block;
@@ -168,6 +170,7 @@ body{
 	opacity: 1;
 	animation: glitch-anim-text 0.5s linear;
 }
+
 
 @media screen and (max-width: 55em) {
 	.grid { grid-template-columns: 100%; margin-top: 3em; }
@@ -256,44 +259,44 @@ body{
 /* Hovers */
 
 /* On hover we show the 2nd, 3rd, 4th and 5th image*/
-.glitch:hover .glitch__img:nth-child(n+2) {
+.glitch .glitch__img:nth-child(n+2) {
 	opacity: 1;
 }
 
 /* Hover animations for horizontal case */
-.glitch:hover .glitch__img:nth-child(2) {
+.glitch .glitch__img:nth-child(2) {
 	transform: translate3d(var(--gap-horizontal),0,0);
 	animation: glitch-anim-1-horizontal var(--time-anim) infinite linear alternate;
 }
 
-.glitch:hover > .glitch__img:nth-child(3) {
+.glitch > .glitch__img:nth-child(3) {
 	transform: translate3d(calc(-1 * var(--gap-horizontal)),0,0);
 	animation: glitch-anim-2-horizontal var(--time-anim) infinite linear alternate;
 }
 
-.glitch:hover > .glitch__img:nth-child(4) {
+.glitch > .glitch__img:nth-child(4) {
 	transform: translate3d(0, calc(-1 * var(--gap-vertical)), 0) scale3d(-1,-1,1);
 	animation: glitch-anim-3-horizontal var(--time-anim) infinite linear alternate;
 }
 
 /* Hover animations for vertical case */
-.glitch--vertical:hover .glitch__img:nth-child(2) {
+.glitch--vertical .glitch__img:nth-child(2) {
 	transform: translate3d(0, var(--gap-vertical), 0);
 	animation: glitch-anim-1-vertical var(--time-anim) infinite linear alternate;
 }
 
-.glitch--vertical:hover > .glitch__img:nth-child(3) {
+.glitch--vertical > .glitch__img:nth-child(3) {
 	transform: translate3d(0, calc(-1 * var(--gap-vertical)), 0);
 	animation: glitch-anim-2-vertical var(--time-anim) infinite linear alternate;
 }
 
-.glitch--vertical:hover > .glitch__img:nth-child(4) {
+.glitch--vertical > .glitch__img:nth-child(4) {
 	transform: translate3d(calc(-1 * var(--gap-horizontal)), 0, 0) scale3d(-1,-1,1);
 	animation: glitch-anim-3-vertical var(--time-anim) infinite linear alternate;
 }
 
 /* Hover flash animation on last image */
-.glitch:hover > .glitch__img:nth-child(5) {
+.glitch> .glitch__img:nth-child(5) {
 	animation: glitch-anim-flash 0.5s steps(1,end) infinite;
 }
 
