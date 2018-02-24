@@ -25,11 +25,19 @@ body {
 	background-size: cover;
 }
 
+
+.title{
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 6em;
+	margin-top: -2%
+}
+
 a {
 	text-decoration: none;
 	color: var(--color-link);
 	outline: none;
 }
+
 
 a:hover,
 a:focus {
@@ -74,6 +82,7 @@ main {
 	align-items: center;
 	margin: 0 auto;
 	min-height: 100vh;
+	margin-top: -8%;
 }
 
 .content--fixed {
@@ -100,25 +109,7 @@ main {
 	pointer-events: auto;
 }
 
-/* Header */
-.codrops-header {
-	position: relative;
-	z-index: 100;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	align-items: center;
-	align-self: start;
-	grid-area: header;
-	justify-self: start;
-}
 
-.codrops-header__title {
-	font-size: 1em;
-	font-weight: bold;
-	margin: 0;
-	padding: 0.75em 0;
-}
 
 .info {
 	margin: 0 0 0 1.25em;
@@ -132,21 +123,6 @@ main {
 	justify-self: start;
 }
 
-/* Top Navigation Style */
-.codrops-links {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	margin: 0 1em 0 0;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.codrops-icon {
-	display: inline-block;
-	margin: 0.15em;
-	padding: 0.25em;
-}
 
 @media screen and (max-width: 55em) {
 	body {
@@ -157,6 +133,7 @@ main {
 		height: auto;
 		min-height: 0;
 		padding-bottom: 10em;
+		margin-top: -6%
 	}
 	.content--fixed {
 		position: relative;
@@ -164,23 +141,12 @@ main {
 		display: block;
 		padding: 0.85em;
 	}
-	.codrops-header {
-		flex-direction: column;
-		align-items: center;
-	}
-	.codrops-header__title {
-		font-weight: bold;
-		padding-bottom: 0.25em;
-		text-align: center;
-	}
+	
 	.info {
 		margin: 0;
 	}
-	.github {
-		display: block;
-		margin: 1em auto;
-	}
-	.codrops-links {
-		margin: 0;
+	
+	.title{
+		margin-top: 5%;
 	}
 }

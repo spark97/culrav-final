@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Animated Fragment Slideshow | Codrops</title>
+	<title>Events | Culrav | MNNIT</title>
 	<meta name="description" content="A slider made with the Pieces library where slides are animated in a fragmented look." />
 	<meta name="keywords" content="slideshow, slider, pieces, fragments, animation, svg, canvas, javascript" />
 	<meta name="author" content="Luis Manuel for Codrops" />
@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/slider.css" />
 	<link rel="stylesheet" type="text/css" href="pater/pater.css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
 	<script
 	src="https://code.jquery.com/jquery-3.3.1.min.js"
 	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -55,42 +56,52 @@
 
 
 
+<center>
+<div class="title">
+	EVENTS
+</div>
+</center>
 
 
 
 
 
 	<main>
-
-
-
-
-
-
-
 		<div class="content">
 			<!-- Pieces Slider -->
 			<div class="pieces-slider">
 				<!-- Each slide with corresponding image and text -->
 				<div class="pieces-slider__slide">
 					<img class="pieces-slider__image" src="img/1.jpg" alt="">
-					<h2 class="pieces-slider__text">Status Quo</h2>
+					<h2 class="pieces-slider__text">Rangsaazi</h2>
 				</div>
 				<div class="pieces-slider__slide">
 					<img class="pieces-slider__image" src="img/2.jpg" alt="">
-					<h2 class="pieces-slider__text">Amphibia</h2>
+					<h2 class="pieces-slider__text">Rangmanch</h2>
 				</div>
 				<div class="pieces-slider__slide">
 					<img class="pieces-slider__image" src="img/3.jpg" alt="">
-					<h2 class="pieces-slider__text">Love Letters</h2>
+					<h2 class="pieces-slider__text">Litmuse</h2>
 				</div>
 				<div class="pieces-slider__slide">
 					<img class="pieces-slider__image" src="img/4.jpg" alt="">
-					<h2 class="pieces-slider__text">Green Flight</h2>
+					<h2 class="pieces-slider__text">Literary (Hindi Events)</h2>
 				</div>
 				<div class="pieces-slider__slide">
 					<img class="pieces-slider__image" src="img/5.jpg" alt="">
-					<h2 class="pieces-slider__text">Fun Fun Run</h2>
+					<h2 class="pieces-slider__text">Spandan</h2>
+				</div>
+				<div class="pieces-slider__slide">
+					<img class="pieces-slider__image" src="img/5.jpg" alt="">
+					<h2 class="pieces-slider__text">Razmatazz</h2>
+				</div>
+				<div class="pieces-slider__slide">
+					<img class="pieces-slider__image" src="img/5.jpg" alt="">
+					<h2 class="pieces-slider__text">Dark Room</h2>
+				</div>
+				<div class="pieces-slider__slide">
+					<img class="pieces-slider__image" src="img/5.jpg" alt="">
+					<h2 class="pieces-slider__text">Anunaad</h2>
 				</div>
 				<!-- Canvas to draw the pieces -->
 				<canvas class="pieces-slider__canvas"></canvas>
@@ -100,6 +111,13 @@
 			</div>
 		</div>
 	</main>
+	<script>
+	$('body').mousemove(function(e){
+		var amountMovedX = (e.pageX * -1 / 15);
+		var amountMovedY = (e.pageY * -1 / 15);
+		$(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+	});
+	</script>
 	<script src='js/anime.min.js'></script>
 	<script src='js/pieces.min.js'></script>
 	<script src='js/demo.js'></script>
