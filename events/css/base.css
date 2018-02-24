@@ -133,7 +133,7 @@ main {
 		height: auto;
 		min-height: 0;
 		padding-bottom: 10em;
-		margin-top: -6%
+		margin-top: -14%
 	}
 	.content--fixed {
 		position: relative;
@@ -146,7 +146,7 @@ main {
 		margin: 0;
 	}
 	
-	.title{
-		margin-top: 5%;
+	main{
+		margin-top: -40%;
 	}
 }
