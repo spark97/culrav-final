@@ -6,30 +6,63 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 html {
-	background: #fff;
+	background: #1d2121;
 }
 
 body {
-	--color-text: #fff;
-	--color-link: #f0f0f0;
-	--color-link-hover: #fff;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 	min-height: 100vh;
-	color: #fff;
+	color: #57585c;
 	color: var(--color-text);
-	background: linear-gradient(115deg, rgba(86, 216, 228,1) 5%,rgba(159, 1, 234,1) 95%);
+	background-color: #fff;
+	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	overflow: hidden;
-	background: url('../img/bg.jpg');
-	background-size: cover;
 }
 
+/* Fade effect */
+.js body {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
 
-.title{
-	font-family: 'Nanum Brush Script', cursive;
-	font-size: 6em;
-	margin-top: -5vh;
+.js body.render {
+	opacity: 1;
+}
+
+/* Page Loader */
+.js .loading::before {
+	content: '';
+	position: fixed;
+	z-index: 100000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--color-bg);
+}
+
+.js .loading::after {
+	content: '';
+	position: fixed;
+	z-index: 100000;
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 60px;
+	margin: -30px 0 0 -30px;
+	pointer-events: none;
+	border-radius: 50%;
+	opacity: 0.4;
+	background: var(--color-link);
+	animation: loaderAnim 0.7s linear infinite alternate forwards;
+}
+
+@keyframes loaderAnim {
+	to {
+		opacity: 1;
+		transform: scale3d(0.5,0.5,1);
+	}
 }
 
 a {
@@ -38,14 +71,9 @@ a {
 	outline: none;
 }
 
-
 a:hover,
 a:focus {
 	color: var(--color-link-hover);
-}
-
-a:focus,
-button:focus {
 	outline: none;
 }
 
@@ -55,6 +83,23 @@ button:focus {
 	width: 0;
 	height: 0;
 	pointer-events: none;
+}
+
+.message {
+	position: relative;
+	z-index: 100;
+	padding: 1.5em 1em;
+	font-size: 0.85em;
+	font-weight: bold;
+	text-align: center;
+	color: var(--color-bg);
+	background: var(--color-text);
+}
+
+@supports(-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) or (clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)) {
+	.message {
+		display: none;
+	}
 }
 
 /* Icons */
@@ -82,7 +127,6 @@ main {
 	align-items: center;
 	margin: 0 auto;
 	min-height: 100vh;
-	margin-top: -8%;
 }
 
 .content--fixed {
@@ -100,7 +144,7 @@ main {
 	pointer-events: none;
 	grid-template-columns: 50% 50%;
 	grid-template-rows: auto auto 4em;
-	grid-template-areas: 'header ...'
+	grid-template-areas: 'header header'
 	'... ...'
 	'github demos';
 }
@@ -109,24 +153,108 @@ main {
 	pointer-events: auto;
 }
 
+.content--top {
+	padding: 1.5em 2em 1.5em 1.5em;
+	justify-content: flex-start;
+	min-height: 0;
+	position: relative;
+}
 
+/* Header */
+.codrops-header {
+	position: relative;
+	z-index: 100;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	align-items: center;
+	align-self: start;
+	grid-area: header;
+	justify-self: start;
+}
+
+.demo-2 .codrops-header {
+	justify-self: stretch;
+}
+
+.codrops-header__title {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0;
+}
 
 .info {
 	margin: 0 0 0 1.25em;
 	color: var(--color-info);
 }
 
+.github {
+	display: block;
+	align-self: end;
+	grid-area: github;
+	justify-self: start;
+}
+
+.content--top .github {
+	align-self: center;
+	margin: 0 1em 0 auto;
+}
+
+.demos {
+	position: relative;
+	display: block;
+	align-self: end;
+	text-align: right;
+	grid-area: demos;
+}
+
+.content--top .demos {
+	align-self: center;
+}
+
+.demo {
+	margin: 0 0 0 1em;
+}
+
+.demo:hover,
+.demo:focus {
+	opacity: 0.5;
+}
+
+.demo span {
+	white-space: nowrap;
+	pointer-events: none;
+}
+
+a.demo--current {
+	pointer-events: none;
+	color: var(--color-link-hover);
+}
+
+/* Top Navigation Style */
+.codrops-links {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 0 1em 0 0;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.codrops-icon {
+	display: inline-block;
+	margin: 0.15em;
+	padding: 0.25em;
+}
 
 @media screen and (max-width: 55em) {
-	body {
-		overflow: auto;
+	.message {
+		display: block;
 	}
 	.content {
 		flex-direction: column;
 		height: auto;
 		min-height: 0;
-		padding-bottom: 10em;
-		margin-top: -14%
 	}
 	.content--fixed {
 		position: relative;
@@ -134,14 +262,30 @@ main {
 		display: block;
 		padding: 0.85em;
 	}
-	
-	.info {
+	.codrops-header {
+		flex-direction: column;
+		align-items: center;
+		align-self: center;
+	}
+	.codrops-header__title {
+		font-weight: bold;
+		padding-bottom: 0.25em;
+		text-align: center;
+	}
+	.github {
+		display: block;
+		margin: 1em auto;
+	}
+	.content--top .github {
+	    margin: 1em 0;
+	}
+	.codrops-links {
 		margin: 0;
 	}
-	
-	main{
-		margin-top: -20vh;
+	.demos {
+		text-align: center;
+	}
+	.demo {
+		margin: 0 0.5em;
 	}
 }
-
-
