@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rangsaazi | Culrav | MNNIT</title>
+    <title>Anunaad | Culrav | MNNIT</title>
     <meta name="description" content="Item hover effects that reveal a colored stack behind the hovered item" />
     <meta name="keywords" content="hover effect, reveal, hover, css, animations, anime.js, javascript, motion, ux" />
     <meta name="author" content="Codrops" />
@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/navbar.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
+
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -98,43 +99,33 @@
 
     <section class="content">
         <div class="grid grid--effect-hamal">
-            <a class="grid__item grid__item--c1">
-                <div class="stack">
+            <a class="grid__item grid__item--c1" data-toggle="modal" data-target="#hasyamanch">
+                <div class="stack" data-toggle="modal" data-target="#hasyamanch">
                     <div class="stack__deco"></div>
                     <div class="stack__deco"></div>
                     <div class="stack__deco"></div>
                     <div class="stack__deco"></div>
-                    <div class="stack__figure">
-                        <img class="stack__img" src="img/1.png" alt="Image" />
+                    <div class="stack__figure" data-toggle="modal" data-target="#hasyamanch">
+                        <img class="stack__img" src="img/unplugged3.jpg" alt="Image" data-toggle="modal" data-target="#hasyamanch" />
                     </div>
                 </div>
                 <div class="grid__item-caption">
-                    <h3 class="grid__item-title center">Face Painting</h3>
-                    <!-- <div class="column column--left">
-						<span class="column__text">Period</span>
-						<span class="column__text">Subjects</span>
-						<span class="column__text">Result</span>
-					</div>
-					<div class="column column--right">
-						<span class="column__text">2045</span>
-						<span class="column__text">133456</span>
-						<span class="column__text">Positive</span>
-					</div> -->
+                    <h3 class="grid__item-title center">Happy Feet</h3>
+
                 </div>
             </a>
-            <a class="grid__item grid__item--c2">
+            <a class="grid__item grid__item--c3">
                 <div class="stack">
                     <div class="stack__deco"></div>
                     <div class="stack__deco"></div>
                     <div class="stack__deco"></div>
                     <div class="stack__deco"></div>
                     <div class="stack__figure">
-                        <img class="stack__img" src="img/2.png" alt="Image" />
-
+                        <img class="stack__img" src="img/voc2.jpg" alt="Image" />
                     </div>
                 </div>
                 <div class="grid__item-caption">
-                    <h3 class="grid__item-title center">Rangoli Making</h3>
+                    <h3 class="grid__item-title center">Shimmy Shake</h3>
                     <!-- <div class="column column--left">
 						<span class="column__text">Period</span>
 						<span class="column__text">Subjects</span>
@@ -154,11 +145,11 @@
                     <div class="stack__deco"></div>
                     <div class="stack__deco"></div>
                     <div class="stack__figure">
-                        <img class="stack__img" src="img/3.png" alt="Image" />
+                        <img class="stack__img" src="img/voc2.jpg" alt="Image" />
                     </div>
                 </div>
                 <div class="grid__item-caption">
-                    <h3 class="grid__item-title center">Doodling</h3>
+                    <h3 class="grid__item-title center">Shake a Leg</h3>
                     <!-- <div class="column column--left">
 						<span class="column__text">Period</span>
 						<span class="column__text">Subjects</span>
@@ -171,17 +162,76 @@
 					</div> -->
                 </div>
             </a>
+
+            <a class="grid__item grid__item--c3">
+                <div class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                        <img class="stack__img" src="img/voc2.jpg" alt="Image" />
+                    </div>
+                </div>
+                <div class="grid__item-caption">
+                    <h3 class="grid__item-title center">Desi Sync</h3>
+                    <!-- <div class="column column--left">
+						<span class="column__text">Period</span>
+						<span class="column__text">Subjects</span>
+						<span class="column__text">Result</span>
+					</div>
+					<div class="column column--right">
+						<span class="column__text">2045</span>
+						<span class="column__text">133456</span>
+						<span class="column__text">Positive</span>
+					</div> -->
+                </div>
+            </a>
+
         </div>
     </section>
 
 
 
 
+    <!-- Modal -->
+    <div class="modal fade" id="hasyamanch" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-notify modal-info" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <p class="heading lead">Hasyamanch</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="white-text">&times;</span>
+                </button>
+                </div>
+
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="text-center">
+                        <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim, ab officiis totam.</p>
+                    </div>
+                </div>
+
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+
 
 
     </main>
     <script src="js/anime.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="./js/imagesloaded.pkgd.min.js"></script>
+    <script src="./js/demo.js"></script>
     <script>
         $('body').mousemove(function(e) {
             var amountMovedX = (e.pageX * -1 / 15);
