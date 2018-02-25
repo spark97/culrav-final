@@ -23,7 +23,18 @@ body {
 	--color-nav-hover: #000;
 	--color-link: #000;
 	--color-link-hover: #333;
+	
+
 }
+
+
+
+
+main {
+background: url('../img/bg.jpg');
+	background-size: cover;
+}
+
 
 /* Page Loader */
 .js .loading::before {
@@ -126,9 +137,10 @@ button:focus {
 }
 
 .title {
-	text-transform: lowercase;
+	text-transform: uppercase;
 	font-size: 1.35rem;
 	margin: 0;
+	color: white;
 }
 
 .menu {
@@ -225,13 +237,19 @@ button:focus {
 	padding: 2rem;
 }
 
+
+.section__slogan{
+	font-weight: 700;
+}
+
 .section__title {
-	font-size: 10vw;
-	text-transform: lowercase;
+	/*font-size: 3vw;*/
+	/*text-transform: lowercase;*/
 	margin: 0;
-	letter-spacing: -0.35vw;
+	letter-spacing: normal;
 	position: relative;
 	overflow: hidden;
+	color: white;
 }
 
 .section__title span {
@@ -244,6 +262,7 @@ button:focus {
 	position: relative;
 	padding: 0 2rem 0 0;
 	font-weight: 300;
+	color: white
 }
 
 .section__description-inner {
@@ -268,10 +287,11 @@ button:focus {
 	list-style: none;
 	background: var(--color-bg-facts);
 	color: var(--color-text-facts);
+	color: white;
 }
 
 .section__facts-item {
-	margin: 0 0 2.5rem 0;
+	margin: 0 0 2rem 0;
 }
 
 .section__facts-img {
@@ -318,7 +338,7 @@ button:focus {
 
 .section__facts-title {
 	font-size: 1em;
-	margin: 0 0 0.5rem;
+	margin: 0 0 0.1rem;
 }
 
 .section__facts-detail {
@@ -410,6 +430,7 @@ button:focus {
 .section__more-linktext {
 	margin: 0 0.5rem 0 0;
 	line-height: 1;
+	text-align: center;
 }
 
 .icon--arrowlong {
@@ -511,14 +532,17 @@ button:focus {
 		grid-area: sections-index;
 		display: flex;
 		z-index: 1;
+		color: white;
 	}
 	.sections__index-current {
 		position: relative;
 		overflow: hidden;
+		color: white;
 	}
 	.sections__index-total {
 		position: relative;
 		margin: 0 0 0 8rem;
+		color: white;
 	}
 	.sections__index-total::after {
 		content: '';
@@ -528,6 +552,7 @@ button:focus {
 		top: calc(50% - 1.5px);
 		right: calc(100% + 1rem);
 		background: #000;
+		color: white;
 	}
 	.sections__index-inner {
 		display: block;
@@ -538,15 +563,17 @@ button:focus {
 		grid-area: sections-nav;
 		z-index: 5;
 		padding: 2rem 4rem 0;
-		background: linear-gradient(0deg, #ffffff 90%, rgba(255,255,255,0));
+		/*background: linear-gradient(0deg, #ffffff 90%, rgba(255,255,255,0));*/
 	}
 	.sections__nav-item {
 		border: 2px solid var(--color-nav);
 		border-radius: 50%;
 		width: 3rem;
 		height: 3rem;
-		background: var(--color-bg-main);
+		color: white;
+		/*background: var(--color-bg-main);*/
 	}
+
 	.sections__nav-item:hover {
 		border-color: var(--color-nav-hover);
 	}
@@ -665,4 +692,9 @@ button:focus {
 		border: 2px solid;
 		padding: 0.5rem;
 	}
+}
+
+
+.facts__toggle{
+	display: none;
 }
