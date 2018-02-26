@@ -29,12 +29,15 @@ body {
 
 
 
-
 main {
 background: url('../img/bg.jpg');
 	background-size: cover;
 }
 
+
+.menu{
+	color: white;
+}
 
 /* Page Loader */
 .js .loading::before {
@@ -128,7 +131,7 @@ button:focus {
 	display: inline-block;
 	width: 1rem;
 	height: 1rem;
-	fill: currentColor;
+	fill: white;
 }
 
 .sections__header {
@@ -193,6 +196,7 @@ button:focus {
 	grid-template: 100% / 100%;
 	pointer-events: auto;
 	cursor: pointer;
+	color: white;
 }
 
 .menu__toggle-inner {
@@ -695,6 +699,6 @@ button:focus {
 }
 
 
-.facts__toggle{
+.facts-toggle{
 	display: none;
 }
