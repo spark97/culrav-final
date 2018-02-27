@@ -16,7 +16,7 @@ body {
 
 @font-face {
 font-family: flesh;
-src: url('./flesh.ttf');
+src: url('flesh.ttf');
 }
 
 .btn {
