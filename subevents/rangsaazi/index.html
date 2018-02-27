@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<!-- Mirrored from tympanus.net/Development/OutdoorsTemplate/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Feb 2018 14:38:55 GMT -->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rangsaazi | Culrav | MNNIT</title>
+	<meta name="description" content="An implementation of Gil Huybrecht's Outdoors design" />
+	<meta name="keywords" content="template, web design, html, javascript, layout, css, slide out" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	<!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
+</head>
+<body class="loading">
+	
+	<main>
+		<div class="sections">
+			<header class="sections__header">
+				<h1 class="title">RANGSAAZI</h1>
+			</header>
+
+			<!-- menu -->
+			<nav class="menu">
+				<ul class="menu__inner">
+					<li class="menu__item"><a class="menu__item-link" href="#">Home</a></li>
+					<li class="menu__item"><a class="menu__item-link" href="#">Events</a></li>
+					<li class="menu__item"><a class="menu__item-link" href="#">Sponsors</a></li>
+					<li class="menu__item"><a class="menu__item-link" href="#">Team</a></li>
+				</ul>
+				<div class="menu__toggle">
+					<span class="menu__toggle-inner menu__toggle-inner--open">
+						<i class="fa fa-list-ul"><!-- <use xlink:href="#icon-menu"></use> --></i>
+					</span>
+					<span class="menu__toggle-inner menu__toggle-inner--close">
+						<i class="fa fa-times"></i>
+					</span>
+				</div>
+			</nav>
+
+
+
+
+
+
+
+			<!-- facts expander with toggles; content for each is in its section -->
+			<div class="facts">
+				<div class="facts__toggle">
+						<!-- <span class="facts__toggle-inner facts__toggle-inner--more">
+							<svg class="icon icon--dot"><use xlink:href="#icon-dot"></use></svg>
+							<span class="facts__toggle-text">See more facts</span>
+						</span>
+						<span class="facts__toggle-inner facts__toggle-inner--less">
+							<svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg>
+							<span class="facts__toggle-text">See less facts</span>
+						</span> -->
+					</div>
+					<!-- <button class="button-contentclose">
+						<svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
+					</button> -->
+				</div>
+				<!-- index -->
+				<div class="sections__index">
+					<span class="sections__index-current">
+						<span class="sections__index-inner">01</span>
+					</span>
+					<span class="sections__index-total">05</span>
+				</div>
+				<!-- navigation down -->
+				<nav class="sections__nav">
+					<button class="sections__nav-item sections__nav-item--prev fa fa-arrow-left">
+						<!-- <svg class="icon icon--navup"><use xlink:href="#icon-navup"></use></svg> -->
+					</button>
+					<button class="sections__nav-item sections__nav-item--next fa fa-arrow-right">
+						<!-- <svg class="icon icon--navdown"><use xlink:href="#icon-navdown"></use></svg> -->
+					</button>
+				</nav>
+				<!-- sections -->
+
+
+
+
+
+				<section class="section section--current">
+					<div class="section__content">
+						<h1 class="section__title">Face&nbsp;&nbsp;Painting</h1>
+						<!-- <h3 class="section__slogan"><i>"Let the music speak"</i></h3> -->
+						<p class="section__description"><span class="section__slogan"><!-- i>"In order to be irreplaceable, you must always be Different."</i> --></span><span class="section__description-inner"></span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/facepainting.jpeg);background-size:contain;background-repeat:no-repeat"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg1">
+							<span class="section__more-text">Want to know more?</span>
+							<a class="section__more-link">
+								<span class="section__more-linktext">Reach us at<br>team.culrav@culrav.in</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<!-- <li class="section__facts-item">
+							<h4 class="section__facts-title">Co-ordinators</h4>
+							
+						</li> -->
+						
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Asad</h3>
+							<span class="section__facts-detail"></span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Sushma Sharma</h3>
+						</li>
+						
+						<!-- <li class="section__facts-item section__facts-item--clickable" data-gallery="gallery1">
+							<div class="section__facts-img">
+								<img src="img/thumb1.jpg" alt="Some image"/>
+								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
+							</div>
+							<h3 class="section__facts-title">More impressions</h3>
+							<span class="section__facts-detail">A collection of images</span>
+						</li> -->
+					</ul>
+					<!-- <div class="section__gallery" id="gallery1">
+						<h3 class="section__gallery-item section__gallery-item--title">More impressions</h3>
+						<a class="section__gallery-item" href="#"><img src="img/thumb1.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb2.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb3.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb4.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb5.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb6.jpg" alt="Some image"/></a>
+					</div> -->
+				</section><!--/ section -->
+
+
+
+
+
+
+
+
+
+
+
+				<section class="section">
+					<div class="section__content">
+						<h1 class="section__title">3&nbsp;&nbsp;Scoops</h1>
+						<!-- <h3 class="section__slogan"><i>"Let the music speak"</i></h3> -->
+						<p class="section__description"><!-- <span class="section__slogan"><i>"Fashion is not necessarily about Labels. It's not about Brands.
+							It's about something else that comes from within you. "</i></span><span class="section__description-inner">Dress to thrill not to win. You're the owner of the runway. Ooze Class and creativity with every step. Withness spellbounding allures, breathtaking models and beautiful designs.</span> --></p>
+						</div>
+						<div class="section__img">
+							<div class="section__img-inner" style="background-image: url(img/rampwalk.jpg);background-size:contain;background-repeat:no-repeat"></div>
+						</div>
+						<div class="section__more">
+							<div class="section__more-inner section__more-inner--bg1">
+								<span class="section__more-text">Want to know more?</span>
+								<a class="section__more-link">
+									<span class="section__more-linktext">Reach us at<br>team.culrav@culrav.in</span>
+									<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+								</a>
+							</div>
+						</div>
+						<div class="section__expander"></div>
+						<ul class="section__facts">
+						<!-- <li class="section__facts-item">
+							<h4 class="section__facts-title">Co-ordinators</h4>
+							
+						</li> -->
+						
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Kuldeep Meena</h3>
+							<span class="section__facts-detail">9005887326</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Sushma Sharma</h3>
+							<span class="section__facts-detail"></span>
+						</li>
+
+						<!-- <li class="section__facts-item section__facts-item--clickable" data-gallery="gallery1">
+							<div class="section__facts-img">
+								<img src="img/thumb1.jpg" alt="Some image"/>
+								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
+							</div>
+							<h3 class="section__facts-title">More impressions</h3>
+							<span class="section__facts-detail">A collection of images</span>
+						</li> -->
+					</ul>
+					<!-- <div class="section__gallery" id="gallery1">
+						<h3 class="section__gallery-item section__gallery-item--title">More impressions</h3>
+						<a class="section__gallery-item" href="#"><img src="img/thumb1.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb2.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb3.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb4.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb5.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb6.jpg" alt="Some image"/></a>
+					</div> -->
+				</section><!--/ section -->
+
+
+
+
+
+
+
+
+
+
+
+
+				<section class="section">
+					<div class="section__content">
+						<h1 class="section__title">Doodling</h1>
+						<!-- <h3 class="section__slogan"><i>"Let the music speak"</i></h3> -->
+						<p class="section__description"><!-- <span class="section__slogan"><i>"Battle Of the Bands"</i></span> --><span class="section__description-inner"> </span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/doodle.jpeg);background-size:contain;background-repeat:no-repeat"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg1">
+							<span class="section__more-text">Want to know more?</span>
+							<a class="section__more-link">
+								<span class="section__more-linktext">Reach us at <br>team.culrav@culrav.in</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<!-- <li class="section__facts-item">
+							<h4 class="section__facts-title">Co-ordinators</h4>
+							
+						</li> -->
+						
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Asad</h3>
+							<span class="section__facts-detail"></span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Sushma Sharma</h3>
+							<span class="section__facts-detail"></span>
+						</li>
+						<!-- <li class="section__facts-item section__facts-item--clickable" data-gallery="gallery1">
+							<div class="section__facts-img">
+								<img src="img/thumb1.jpg" alt="Some image"/>
+								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
+							</div>
+							<h3 class="section__facts-title">More impressions</h3>
+							<span class="section__facts-detail">A collection of images</span>
+						</li> -->
+					</ul>
+					<!-- <div class="section__gallery" id="gallery1">
+						<h3 class="section__gallery-item section__gallery-item--title">More impressions</h3>
+						<a class="section__gallery-item" href="#"><img src="img/thumb1.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb2.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb3.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb4.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb5.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb6.jpg" alt="Some image"/></a>
+					</div> -->
+				</section><!--/ section -->
+
+
+
+
+				<section class="section">
+					<div class="section__content">
+						<h1 class="section__title">Site&nbsp;&nbsp;Sketching</h1>
+						<!-- <h3 class="section__slogan"><i>"Let the music speak"</i></h3> -->
+						<p class="section__description"><!-- <span class="section__slogan"><i>"Battle Of the Bands"</i></span> --><span class="section__description-inner"> </span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/doodling.jpeg);background-size:contain;background-repeat:no-repeat"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg1">
+							<span class="section__more-text">Want to know more?</span>
+							<a class="section__more-link">
+								<span class="section__more-linktext">Reach us at <br>team.culrav@culrav.in</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<!-- <li class="section__facts-item">
+							<h4 class="section__facts-title">Co-ordinators</h4>
+							
+						</li> -->
+						
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Kuldeep Meena</h3>
+							<span class="section__facts-detail">9005887326</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Vivek</h3>
+							<span class="section__facts-detail"></span>
+						</li>
+						<!-- <li class="section__facts-item section__facts-item--clickable" data-gallery="gallery1">
+							<div class="section__facts-img">
+								<img src="img/thumb1.jpg" alt="Some image"/>
+								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
+							</div>
+							<h3 class="section__facts-title">More impressions</h3>
+							<span class="section__facts-detail">A collection of images</span>
+						</li> -->
+					</ul>
+					<!-- <div class="section__gallery" id="gallery1">
+						<h3 class="section__gallery-item section__gallery-item--title">More impressions</h3>
+						<a class="section__gallery-item" href="#"><img src="img/thumb1.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb2.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb3.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb4.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb5.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb6.jpg" alt="Some image"/></a>
+					</div> -->
+				</section><!--/ section -->
+
+
+
+
+
+
+				<section class="section">
+					<div class="section__content">
+						<h1 class="section__title">Rangoli</h1>
+						<!-- <h3 class="section__slogan"><i>"Let the music speak"</i></h3> -->
+						<p class="section__description"><!-- <span class="section__slogan"><i>"Battle Of the Bands"</i></span> --><span class="section__description-inner"> </span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/rangoli.jpeg);background-size:contain;background-repeat:no-repeat"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg1">
+							<span class="section__more-text">Want to know more?</span>
+							<a class="section__more-link">
+								<span class="section__more-linktext">Reach us at <br>team.culrav@culrav.in</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<!-- <li class="section__facts-item">
+							<h4 class="section__facts-title">Co-ordinators</h4>
+							
+						</li> -->
+						
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Vivek</h3>
+							<span class="section__facts-detail"></span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Sushma Sharma</h3>
+							<span class="section__facts-detail"></span>
+						</li>
+						<!-- <li class="section__facts-item section__facts-item--clickable" data-gallery="gallery1">
+							<div class="section__facts-img">
+								<img src="img/thumb1.jpg" alt="Some image"/>
+								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
+							</div>
+							<h3 class="section__facts-title">More impressions</h3>
+							<span class="section__facts-detail">A collection of images</span>
+						</li> -->
+					</ul>
+					<!-- <div class="section__gallery" id="gallery1">
+						<h3 class="section__gallery-item section__gallery-item--title">More impressions</h3>
+						<a class="section__gallery-item" href="#"><img src="img/thumb1.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb2.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb3.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb4.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb5.jpg" alt="Some image"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/thumb6.jpg" alt="Some image"/></a>
+					</div> -->
+				</section><!--/ section -->
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div><!--/ sections -->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+
+	<!-- Mirrored from tympanus.net/Development/OutdoorsTemplate/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Feb 2018 14:39:06 GMT -->
+	</html>
