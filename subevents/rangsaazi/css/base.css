@@ -23,7 +23,7 @@ body {
 	--color-nav-hover: #000;
 	--color-link: #000;
 	--color-link-hover: #333;
-	
+	overflow-x: hidden;
 
 }
 
