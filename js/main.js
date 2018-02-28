@@ -185,7 +185,8 @@
 
 		var segBgEl = document.createElement('div');
 		segBgEl.className = 'segmenter__background';
-		segBgEl.style.backgroundImage = 'url(' + this.imgsrc + ')';
+		segBgEl.style.backgroundImage = 'url(./img/bg6.jpg)';
+		console.log(segBgEl.style.backgroundImage);
 
 		var segPieces = document.createElement('div'),
 			segPiecesHTML = '',

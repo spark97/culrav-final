@@ -1,11 +1,11 @@
 (function() {
-
+    var eventslist = ["rangmanch", "rangsaazi", "litmuse", "literary", "spandan", "razmattaz", "darkroom", "anunaad"]
     // Get all images and texts, get the `canvas` element, and save slider length
     var sliderCanvas = document.querySelector('.pieces-slider__canvas');
     var imagesEl = [].slice.call(document.querySelectorAll('.pieces-slider__image'));
     var textEl = [].slice.call(document.querySelectorAll('.pieces-slider__text'));
     var slidesLength = imagesEl.length;
-
+    var eventLInk = document.getElementById('linkToEvent');
     // Define indexes related variables and functions
     var currentIndex = 0, currentImageIndex, currentTextIndex, currentNumberIndex;
     // Update current indexes for image, text and number
@@ -177,14 +177,17 @@
         hideItems();
         currentIndex = currentIndex > 0 ? currentIndex - 1 : slidesLength - 1;
         updateIndexes();
+        eventLInk.href = eventslist[currentIndex]+".html";
         showItems();
     }
 
     // Select the next item: hide current items, update indexes, and show the new current item
     function nextItem() {
+        
         hideItems();
         currentIndex = currentIndex < slidesLength - 1 ? currentIndex + 1 : 0;
         updateIndexes();
+        eventLInk.href = eventslist[currentIndex]+".html";
         showItems();
     }
 
