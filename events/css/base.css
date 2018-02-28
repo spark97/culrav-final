@@ -7,6 +7,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 html {
 	background: #fff;
+	overflow-y: auto;
 }
 
 body {
@@ -119,7 +120,7 @@ main {
 
 @media screen and (max-width: 55em) {
 	body {
-		overflow: auto;
+		overflow-y: auto;
 	}
 	.content {
 		flex-direction: column;
