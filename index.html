@@ -48,54 +48,72 @@
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
 			</script>
+			<style type="text/css">
+
+.btn {
+	font-size: 0.3em;
+	height: 40px;
+	min-width: 100px;
+	background-color: #1c1c31;
+	color: white;
+	cursor: pointer;
+	margin-right: 10px;
+/*	right: 35vw;
+	top: 35vh;
+	left:45vw;
+	top:31%;*/
+
+	background: transparent;
+	font-family: 'Montserrat';
+	border-style: groove;
+	border-width: 2px;
+	padding: 2px;
+}
+
+.btn:hover {
+	background-color: #1c1c31;
+	color: grey;
+}
+
+.trigger-headline{
+	z-index: 999999;
+	position: absolute;
+}
+
+
+			</style>
 		</head>
 		<body class="demo-6">
 
-
 			
-
-
-
-
-			<main style="background-image: url(./img/bg6.jpg);background-size: cover;">
-
-
-
-				<div class="header-nightsky" style="display:none">
-					<nav class="navbar navbar-default navbar-static-top ">
-						<div class="container">
-							<a class="navbar-brand" href="#">LOGO</a>
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div>
-							<div class="collapse navbar-collapse" id="myNavbar">
-								<ul class="nav navbar-nav navbar-right">
-									<li><a href="#">HOME</a></li>
-									<li><a href="./events/index.html">EVENTS</a></li>
-									<li><a href="./schedule/index.html">SCHEDULE</a></li>
-									<li><a href="./sponsors/index.html">SPONSORS</a></li>
-									<li><a href="./team/index.html">TEAM</a></li>
-								</ul>
-							</div>
-						</div>
-					</nav>
+			<div class="trigger-headline trigger-headline--hidden" style="display:flex;flex-direction: column;display:none;">
+					<h2  style="font-family:flesh;color:#F28B04;letter-spacing:1vw;font-size:2em;">
+						CULRAV
+					</h2>
+					<p style="font-family:Freckle Face;color:white;letter-spacing:0.5vw;font-size:1.5em;font-weight:300">
+						<i class="slogan">"Tryst With Darkness"</i>
+					</p>
+					<p style="font-family:Chewy;color:white;letter-spacing:0.5vw;font-size:0.5em;margin-top: 5px;">21<sup>st</sup>-24<sup>th</sup> March 2018</p>
+					<p style="display:flex;flex-wrap: wrap;">
+						<a href="./events/index.html" id="linkToEvent"><button class="btn">Events</button></a>
+						<a href="./sponsors/index.html" id="linkToEvent"><button class="btn">Sponsors</button></a>
+						<a href="./schedule/index.html" id="linkToEvent"><button class="btn">Schedule</button></a>
+					</p>
+					<p style="font-family:Electrolize;color:white;letter-spacing:0.3vw;font-size:0.3em;margin-top: 20px">Motilal Nehru National Institute Of Technology, Allahabad</p>
 				</div>
 
 
-				<!-- <div class="center menu" style="">
-					<div id="myMenu"></div>
-				</div>
-			-->
+
+			<main >
+
+
 
 
 
 
 			<!-- Initial markup -->
-			<div class="segmenter" >
+			<div class="segmenter" style="background-image: url(./img/bg6.jpg);">
+
 
 				
 
@@ -112,11 +130,9 @@
 
 
 
-			<center><h2 class="trigger-headline trigger-headline--hidden" style="font-family:flesh;color:#F28B04;letter-spacing:5vw;font-size:10vw;margin-top:20px">
-				<span>CULRAV<br><span style="font-family:Freckle Face;color:white;letter-spacing:0.5vw;font-size:3vw;font-weight:300"><i class="slogan">"Tryst With Darkness"</i></span>
-				<br><span style="font-family:Chewy;color:white;letter-spacing:0.5vw;font-size:3vw;">21<sup>st</sup>-24<sup>th</sup> March 2018</span>
-				<br><span style="font-family:Electrolize;color:white;letter-spacing:0.3vw;font-size:1.5vw;margin-left:-5%">Motilal Nehru National Institute Of Technology, Allahabad</span>
-			</span></h2><center>
+
+				
+
 			<div class="bottom-nav">
 				<button class="btn btn--trigger btn--hidden" style="display:none"></button>
 
@@ -170,7 +186,7 @@
 <script>
 setTimeout(function(){
 	$('.btn--trigger').trigger('click');
-	$('.header-nightsky').show(1000,"linear")
+	$('.trigger-headline').show(1500,"linear")
 },500);
 </script>
 
