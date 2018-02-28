@@ -1,5 +1,5 @@
 (function() {
-    var eventslist = ["rangmanch", "rangsaazi", "litmuse", "literary", "spandan", "razmattaz", "darkroom", "anunaad"]
+    var eventslist = ["../subevents/rangmanch", "../subevents/rangsaazi", "../subevents/litmuse", "../subevents/literary", "../subevents/spandhan", "../subevents/razmattaz", "../subevents/darkroom", "../subevents/anunaad"]
     // Get all images and texts, get the `canvas` element, and save slider length
     var sliderCanvas = document.querySelector('.pieces-slider__canvas');
     var imagesEl = [].slice.call(document.querySelectorAll('.pieces-slider__image'));
@@ -177,7 +177,7 @@
         hideItems();
         currentIndex = currentIndex > 0 ? currentIndex - 1 : slidesLength - 1;
         updateIndexes();
-        eventLInk.href = eventslist[currentIndex]+".html";
+        eventLInk.href = eventslist[currentIndex]+"/index.html";
         showItems();
     }
 
@@ -187,7 +187,7 @@
         hideItems();
         currentIndex = currentIndex < slidesLength - 1 ? currentIndex + 1 : 0;
         updateIndexes();
-        eventLInk.href = eventslist[currentIndex]+".html";
+        eventLInk.href = eventslist[currentIndex]+"/index.html";
         showItems();
     }
 

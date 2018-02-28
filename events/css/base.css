@@ -5,6 +5,36 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	box-sizing: border-box;
 }
 
+
+
+
+
+
+#linkToEvent {
+	position: absolute;
+	font-size: 1.5em;
+	z-index: 1000000;
+	height: 40px;
+	width: 150px;
+	background-color: #1c1c31;
+	cursor: pointer;
+	right: 35vw;
+	top: 35vh;
+	left:45vw;
+	top:31%;
+
+	background: transparent;
+	font-family: 'Montserrat';
+	border-style: groove;
+	border-width: 2px;
+	padding-top: 2px;
+}
+
+
+
+
+
+
 html {
 	background: #fff;
 	overflow-y: auto;
@@ -142,6 +172,12 @@ main {
 	
 	main{
 		margin-top: -20vh;
+	}
+
+	#linkToEvent{
+		font-size: 1em;
+		left:30vw;
+		padding-top: 1.2vh
 	}
 }
 
