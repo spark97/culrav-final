@@ -480,6 +480,7 @@ button:focus {
     }
     .menu__inner {
         padding: 4rem 4rem 0 0;
+        margin-top: 3vh;
     }
     .facts {
         position: relative;

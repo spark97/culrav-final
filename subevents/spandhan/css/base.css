@@ -189,6 +189,7 @@ button:focus {
     opacity: 1;
     position: relative;
     text-align: right;
+    margin-top: 3vh;
 }
 
 .menu__toggle {
