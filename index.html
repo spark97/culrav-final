@@ -51,13 +51,14 @@
 			<style type="text/css">
 
 .btn {
-	font-size: 0.3em;
+	font-size: 20px;
 	height: 40px;
 	min-width: 100px;
 	background-color: #1c1c31;
 	color: white;
 	cursor: pointer;
 	margin-right: 10px;
+	margin-top: 20px;
 /*	right: 35vw;
 	top: 35vh;
 	left:45vw;
@@ -80,27 +81,104 @@
 	position: absolute;
 }
 
+.event-name{
+	font-size: 110px;
+	margin-bottom: 20px;
+}
 
+.slogan {
+	font-size: 40px;
+}
+
+.event-date{
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.college-name {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+	line-height: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+	.event-name{
+		font-size: 90px;
+	}
+
+	.slogan {
+		font-size: 35px;
+	}
+
+	.event-date{
+		font-size: 25px;
+	}
+
+	.college-name {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 700px) {
+
+
+	.slogan {
+		font-size: 30px;
+	}
+
+	.event-date{
+		font-size: 25px;
+	}
+
+	.college-name {
+		font-size: 15px;
+	}
+	.btn {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.event-name{
+		font-size: 70px;
+	}
+
+	.slogan {
+		font-size: 30px;
+	}
+
+	.event-date{
+		font-size: 20px;
+	}
+
+	.college-name {
+		font-size: 15px;
+	}
+
+	.btn {
+		font-size: 14px;
+	}
+
+}
 			</style>
 		</head>
 		<body class="demo-6">
 
 			
 			<div class="trigger-headline trigger-headline--hidden" style="display:flex;flex-direction: column;display:none;">
-					<h2  style="font-family:flesh;color:#F28B04;letter-spacing:1vw;font-size:2em;">
+					<h2  style="font-family:flesh;color:#F28B04;letter-spacing:1vw;" class="event-name">
 						CULRAV
 					</h2>
-					<p style="font-family:Freckle Face;color:white;letter-spacing:0.5vw;font-size:1.0em;font-weight:300">
+					<p style="font-family:Freckle Face;color:white;letter-spacing:0.5vw;font-weight:300" class="slogan">
 						<i class="slogan">"Tryst With Darkness"</i>
 					</p>
-					<p style="font-family:Chewy;color:white;letter-spacing:0.5vw;font-size:0.5em;margin-top: 5px;">21<sup>st</sup>-24<sup>th</sup> March 2018</p>
+					<p style="font-family:Chewy;color:white;letter-spacing:0.5vw;;margin-top: 5px;" class="event-date">21<sup>st</sup>-24<sup>th</sup> March 2018</p>
 					<p style="display:flex;flex-wrap: wrap;">
 						<a href="./events/index.html" id="linkToEvent"><button class="btn">Events</button></a>
 						<a href="./sponsors/index.html" id="linkToEvent"><button class="btn">Sponsors</button></a>
 						<a href="./schedule/index.html" id="linkToEvent"><button class="btn">Schedule</button></a>
-						<a href="./team/index.html" id="linkToEvent"><button class="btn">Team</button></a>
 					</p>
-					<p style="font-family:Electrolize;color:white;letter-spacing:0.3vw;font-size:0.3em;margin-top: 20px">Motilal Nehru National Institute Of Technology, Allahabad</p>
+					<p style="font-family:Electrolize;color:white;letter-spacing:0.3vw;margin-top: 20px" class="college-name">Motilal Nehru National Institute Of Technology, Allahabad</p>
 				</div>
 
 
