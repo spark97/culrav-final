@@ -88,6 +88,10 @@ img { border: 0; max-width: 100%; }
   content: " ";
 }
 
+.concurrent-timeline{
+  /*top: -165px;*/
+}
+
 .timeline li .timeline-panel:after {
   position: absolute;
   top: 27px;
@@ -166,6 +170,9 @@ margin:5px;
 @media (max-width: 991px) {
   .timeline li .timeline-panel {
     width: 44%;
+  }
+  .concurrent-timeline{
+  /*top: -180px;*/
   }
 }
 
