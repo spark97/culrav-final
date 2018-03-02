@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83bee41-a32c-47cc-8f9c-b5184362e425" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/favicon.ico" afterPath="$PROJECT_DIR$/events/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/anunaad/favicon.ico" afterPath="$PROJECT_DIR$/subevents/anunaad/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/literary/favicon.ico" afterPath="$PROJECT_DIR$/subevents/literary/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/litmuse/favicon.ico" afterPath="$PROJECT_DIR$/subevents/litmuse/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/rangmanch/favicon.ico" afterPath="$PROJECT_DIR$/subevents/rangmanch/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/rangsaazi/favicon.ico" afterPath="$PROJECT_DIR$/subevents/rangsaazi/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/razmatazz/favicon.ico" afterPath="$PROJECT_DIR$/subevents/razmatazz/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/spandhan/favicon.ico" afterPath="$PROJECT_DIR$/subevents/spandhan/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="$PROJECT_DIR$/css/footer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/css/base.css" afterPath="$PROJECT_DIR$/events/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/index.html" afterPath="$PROJECT_DIR$/events/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/anunaad/index.html" afterPath="$PROJECT_DIR$/subevents/anunaad/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/literary/index.html" afterPath="$PROJECT_DIR$/subevents/literary/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/litmuse/index.html" afterPath="$PROJECT_DIR$/subevents/litmuse/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/rangmanch/index.html" afterPath="$PROJECT_DIR$/subevents/rangmanch/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/rangsaazi/index.html" afterPath="$PROJECT_DIR$/subevents/rangsaazi/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/razmatazz/index.html" afterPath="$PROJECT_DIR$/subevents/razmatazz/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/subevents/spandhan/index.html" afterPath="$PROJECT_DIR$/subevents/spandhan/index.html" />
     </list>
     <ignored path="culrav-final.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subevents/litmuse/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.22363636">
+            <state vertical-scroll-proportion="-186.78572">
               <caret line="523" column="85" selection-start-line="523" selection-start-column="85" selection-end-line="523" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -121,6 +102,16 @@
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#0;n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/events/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6239168">
+              <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,7 +137,6 @@
         <option value="$PROJECT_DIR$/schedule/index.html" />
         <option value="$PROJECT_DIR$/subevents/litmuse/css/base.css" />
         <option value="$PROJECT_DIR$/subevents/hindi_literary/index.html" />
-        <option value="$PROJECT_DIR$/events/css/base.css" />
         <option value="$PROJECT_DIR$/css/footer.css" />
         <option value="$PROJECT_DIR$/events/index.html" />
         <option value="$PROJECT_DIR$/subevents/anunaad/index.html" />
@@ -156,6 +146,7 @@
         <option value="$PROJECT_DIR$/subevents/razmatazz/index.html" />
         <option value="$PROJECT_DIR$/subevents/literary/index.html" />
         <option value="$PROJECT_DIR$/subevents/litmuse/index.html" />
+        <option value="$PROJECT_DIR$/events/css/base.css" />
       </list>
     </option>
   </component>
@@ -359,6 +350,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="culrav-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="culrav-final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -421,7 +430,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28038067" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -641,14 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.581818">
-          <caret line="185" column="24" selection-start-line="185" selection-start-column="24" selection-end-line="185" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41594455">
@@ -707,7 +708,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subevents/litmuse/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.22363636">
+        <state vertical-scroll-proportion="-186.78572">
           <caret line="523" column="85" selection-start-line="523" selection-start-column="85" selection-end-line="523" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -722,6 +723,14 @@
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#0;n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6239168">
+          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
