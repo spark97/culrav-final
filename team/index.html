@@ -24,9 +24,17 @@
 	src="https://code.jquery.com/jquery-3.3.1.min.js"
 	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	crossorigin="anonymous"></script>
-	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="./js/imagesloaded.pkgd.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script src="./js/anime.min.js"></script>
 	<script src="../../codrops/adpacks/analytics.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	<style>
+		body{
+			overflow-y:auto;
+		}
+	</style>
 </head>
 
 
@@ -36,18 +44,18 @@
 
 
 	<div class="header-nightsky">
-		<nav class="navbar navbar-default navbar-static-top ">
+		<nav class="navbar navbar-default navbar-static-top">
 			<div class="container">
 				<a class="navbar-brand" href="#">LOGO</a>
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="navbutton">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
 				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
+				<div class="collapse navbar-collapse event-nav" id="myNavbar" >
+					<ul class="nav navbar-nav navbar-right ">
 						<li><a href="../index.html">HOME</a></li>
 						<li><a href="../events/index.html">EVENTS</a></li>
 						<li><a href="../schedule/index.html">SCHEDULE</a></li>
@@ -368,9 +376,7 @@
 
 
 
-			<script src='js/anime.min.js'></script>
-			<script src='js/pieces.min.js'></script>
-			<script src='js/demo.js'></script>
+
 			<script>
 			// For Demo purposes only (show hover effect on mobile devices)
 			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {

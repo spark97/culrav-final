@@ -1,0 +1,70 @@
+footer{
+    margin-top: 5vh;
+    background-color:#1e2023;
+}
+.logo_contact_div{
+    margin-top: 30px;
+    color: white;
+}
+li a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+    text-decoration: none;
+}
+li a:active{
+    color:yellow;
+    text-decoration: none;
+}
+li a:visited{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    margin-top: 30px;
+    color: white;
+    border: solid white 1px;
+    background-color: #1e2023;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 30px;
+}
+.logo a{
+    color: white;
+}
+.logo:hover a{
+    color:#1e2023;
+}
+.logo:hover{
+    background-color: white;
+}
+ul{
+    font-size: 16px;
+    line-height: 28px;
+}
+.footer_links:hover{
+    color: orangered;
+}
+.footer_links:focus{
+    color: orangered;
+    text-decoration: none;
+}
+#title{
+    margin-left: 20px;
+    color:white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer-company-name{
+    margin-top: -10px;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 40px;
+}
+span b{
+    color:black;
+}
