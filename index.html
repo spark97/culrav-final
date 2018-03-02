@@ -190,7 +190,7 @@
 </head>
 <body class="demo-6">
 
-	
+
 	<div class="trigger-headline trigger-headline--hidden" style="display:flex;flex-direction: column;display:none;">
 		<h2  style="font-family:flesh;color:#F28B04;letter-spacing:1vw;" class="event-name">
 			CULRAV
@@ -238,7 +238,7 @@
 
 
 
-			
+
 
 			<div class="bottom-nav">
 				<button class="btn btn--trigger btn--hidden" style="display:none"></button>
@@ -248,6 +248,17 @@
 
 
 
+<script>
+/*setTimeout(function(){
+	
+},700);*/
+
+
+window.onload = function () { $('.btn--trigger').trigger('click');
+$('.trigger-headline').show(1500,"linear") }
+
+
+</script>
 
 
 		<script>
@@ -290,20 +301,6 @@
 })();
 </script>
 
-<script>
-/*setTimeout(function(){
-	
-},700);*/
-
-
-window.onload = function () { $('.btn--trigger').trigger('click');
-$('.trigger-headline').show(1500,"linear") }
-
-
-</script>
-
-
-<script src="js/navbar.js"></script>
 
 </body>
 
