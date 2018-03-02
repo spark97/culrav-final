@@ -1,0 +1,17 @@
+	@font-face{
+  		font-family: "Eater";
+  		src: url("../css/Eater.ttf");
+  	}
+
+  	.mainhead{
+  		font-family: Eater;
+  		color: #ffffff;
+	}
+
+  	body{
+  		background-image: url("../img/schedule_bg.jpg");
+  		background-size: cover;
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  	}
