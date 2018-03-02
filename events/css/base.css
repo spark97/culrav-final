@@ -21,7 +21,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	right: 35vw;
 	top: 35vh;
 	left:45vw;
-	top:31%;
+	top:35%;
 
 	background: transparent;
 	font-family: 'Montserrat';
@@ -60,7 +60,6 @@ body {
 .title{
 	font-family: 'Nanum Brush Script', cursive;
 	font-size: 6em;
-	margin-top: -5vh;
 }
 
 a {
@@ -174,6 +173,9 @@ main {
 		margin-top: -20vh;
 	}
 
+	#linkToEvent{
+		left: 30vw;
+	}
 
 }
 
