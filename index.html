@@ -259,7 +259,7 @@
 
 
 window.onload = function () { 
-$('.trigger-headline').show(1000,"swing",function(){
+$('.trigger-headline').show(700,"swing",function(){
 	$('.btn--trigger').trigger('click');
 }) }
 
@@ -285,7 +285,7 @@ $('.trigger-headline').show(1000,"swing",function(){
 				{top: 70, left: 40, width: 30, height: 30}
 				],
 				animation: {
-					duration: 2000,
+					duration: 900,
 					easing: 'easeInOutCubic',
 					delay: 0,
 					opacity: 1,
@@ -294,7 +294,7 @@ $('.trigger-headline').show(1000,"swing",function(){
 					translateY: {min: -20, max: 20}
 				},
 				parallax: true,
-				parallaxMovement: {min: -10, max: -5},
+				parallaxMovement: {min: -20, max: 0},
 				onReady: function() {
 					trigger.classList.remove('btn--hidden');
 					trigger.addEventListener('click', function() {
