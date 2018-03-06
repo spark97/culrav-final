@@ -1,5 +1,5 @@
 (function() {
-    var eventslist = ["../subevents/rangmanch", "../subevents/rangsaazi", "../subevents/litmuse", "../subevents/literary", "../subevents/spandhan", "../subevents/razmatazz", "../subevents/darkroom", "../subevents/anunaad"]
+    var eventslist = ["../subevents/rangmanch", "../subevents/rangsaazi", "../subevents/litmuse", "../subevents/literary", "../subevents/spandhan", "../subevents/razmatazz", "#", "../subevents/anunaad"]
     // Get all images and texts, get the `canvas` element, and save slider length
     var sliderCanvas = document.querySelector('.pieces-slider__canvas');
     var imagesEl = [].slice.call(document.querySelectorAll('.pieces-slider__image'));
