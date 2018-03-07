@@ -19,6 +19,18 @@ font-family: flesh;
 src: url('flesh.TTF');
 }
 
+
+
+@font-face {
+font-family: skull;
+src: url('skull.TTF');
+}
+
+
+
+
+
+
 .btn {
 	cursor: pointer;
 	text-align: center;
