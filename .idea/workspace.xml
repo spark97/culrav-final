@@ -2,6 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e83bee41-a32c-47cc-8f9c-b5184362e425" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/220px-Shankarmahadevanacademy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Agmatel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Asmita Theatre Group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/BIG FM Logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/BSA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Bikanervala.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Bikanerwala.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/BrainBuxa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/CRAFT Film School.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Cola.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Dhyeya Educational Services Pvt. Ltd..jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Dream Makers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Fashion Big Bazaar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/FernsNPetals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/GrabOn_-_Official_Logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Instamojo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Myntra.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Nescafe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Nimbooz.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/PICOVICO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/PNB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/SBI.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Saavn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/State Bank of India.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Tata.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/Vijaya Bank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/aiefa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/aptron-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/aricent.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/bakh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/birla-gold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/career.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/cetpa-infotech-squarelogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/crukces-e1417692514255.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/dairy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/dell.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/digit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/festPav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/gate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/glozon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/golgappa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/goli_vada.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/hercules.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/ims.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/kodak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/koutons.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/ktpl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/lazyninja.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/levi's.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/ola.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/pizza-hut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/redFM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/softy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/sonata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/thinklabs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/time.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/union-bank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsors/logos/yep.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sponsors/index.html" afterPath="$PROJECT_DIR$/sponsors/index.html" />
     </list>
@@ -50,9 +109,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sponsors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51756006">
-              <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
-              <folding />
+            <state vertical-scroll-proportion="5.6192236">
+              <caret line="138" column="47" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -602,9 +663,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sponsors/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51756006">
-          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="5.6192236">
+          <caret line="138" column="47" selection-start-line="138" selection-start-column="47" selection-end-line="138" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
